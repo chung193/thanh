@@ -1,0 +1,12 @@
+E:\code\c#\DemoThanh\DemoThanh\bin\Debug\DemoThanh.exe.config
+E:\code\c#\DemoThanh\DemoThanh\bin\Debug\DemoThanh.exe
+E:\code\c#\DemoThanh\DemoThanh\bin\Debug\DemoThanh.pdb
+E:\code\c#\DemoThanh\DemoThanh\obj\Debug\DemoThanh.csproj.AssemblyReference.cache
+E:\code\c#\DemoThanh\DemoThanh\obj\Debug\DemoThanh.csproj.SuggestedBindingRedirects.cache
+E:\code\c#\DemoThanh\DemoThanh\obj\Debug\DemoThanh.Form1.resources
+E:\code\c#\DemoThanh\DemoThanh\obj\Debug\DemoThanh.Properties.Resources.resources
+E:\code\c#\DemoThanh\DemoThanh\obj\Debug\DemoThanh.csproj.GenerateResource.cache
+E:\code\c#\DemoThanh\DemoThanh\obj\Debug\DemoThanh.csproj.CoreCompileInputs.cache
+E:\code\c#\DemoThanh\DemoThanh\obj\Debug\DemoThanh.exe
+E:\code\c#\DemoThanh\DemoThanh\obj\Debug\DemoThanh.pdb
+E:\code\c#\DemoThanh\DemoThanh\obj\Debug\DemoThanh.csproj.ResolveComReference.cache
