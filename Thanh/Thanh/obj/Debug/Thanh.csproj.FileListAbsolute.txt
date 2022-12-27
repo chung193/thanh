@@ -1,0 +1,13 @@
+C:\Users\chung\OneDrive\Desktop\thanh\Thanh\Thanh\bin\Debug\Thanh.exe.config
+C:\Users\chung\OneDrive\Desktop\thanh\Thanh\Thanh\bin\Debug\Thanh.exe
+C:\Users\chung\OneDrive\Desktop\thanh\Thanh\Thanh\bin\Debug\Thanh.pdb
+C:\Users\chung\OneDrive\Desktop\thanh\Thanh\Thanh\obj\Debug\Thanh.csproj.AssemblyReference.cache
+C:\Users\chung\OneDrive\Desktop\thanh\Thanh\Thanh\obj\Debug\Thanh.csproj.SuggestedBindingRedirects.cache
+C:\Users\chung\OneDrive\Desktop\thanh\Thanh\Thanh\obj\Debug\Thanh.FrmDangNhap.resources
+C:\Users\chung\OneDrive\Desktop\thanh\Thanh\Thanh\obj\Debug\Thanh.Properties.Resources.resources
+C:\Users\chung\OneDrive\Desktop\thanh\Thanh\Thanh\obj\Debug\Thanh.csproj.GenerateResource.cache
+C:\Users\chung\OneDrive\Desktop\thanh\Thanh\Thanh\obj\Debug\Thanh.csproj.CoreCompileInputs.cache
+C:\Users\chung\OneDrive\Desktop\thanh\Thanh\Thanh\obj\Debug\Thanh.exe
+C:\Users\chung\OneDrive\Desktop\thanh\Thanh\Thanh\obj\Debug\Thanh.pdb
+C:\Users\chung\OneDrive\Desktop\thanh\Thanh\Thanh\obj\Debug\Thanh.HeThong.FrmGiaoDienChinh.resources
+C:\Users\chung\OneDrive\Desktop\thanh\Thanh\Thanh\obj\Debug\Thanh.HeThong.frmQuanTriNguoiDung.resources
