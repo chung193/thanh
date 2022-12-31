@@ -13,8 +13,8 @@ namespace Thanh.HeThong
 {
     public partial class frmQuanTriNguoiDung : Form
     {
-        private XuLyDuLieu objXldl;
         private DataTable dtNguoiDung;
+        private XuLyDuLieu objXldl;
         private int cheDo;
         private String id;
         public frmQuanTriNguoiDung()
@@ -145,9 +145,6 @@ namespace Thanh.HeThong
             }
             return kq;
         }
-
-
-
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
@@ -281,11 +278,15 @@ namespace Thanh.HeThong
             ThietLapTTCacControl();
             try
             {
+                if(dgvNguoiDung.CurrentRow != null)
+                {
                     int dong = dgvNguoiDung.CurrentRow.Index;
                     id = dgvNguoiDung.Rows[dong].Cells[0].Value.ToString();
+                }
             }
-            catch
+            catch(Exception ex)
             {
+                MessageBox.Show(ex.Message);
                 btnSua.Enabled = btnXoa.Enabled = false;
             }
         }

@@ -56,6 +56,30 @@ namespace Thanh.ThuVien
             return da;
         }
 
+        public bool KiemTraTrung(String strSql)
+        {
+            bool result = true;
+            try
+            {
+                MoKetNoi();
+                SqlCommand cmd = new SqlCommand(strSql, conn);
+                var kq = cmd.ExecuteReader();
+                if (kq.HasRows)
+                {
+                    return result = false;
+                }
+            }
+            catch (Exception ex)
+            {
+                loi = ex.Message;
+                return result = false;
+            }
+            finally
+            {
+                DongKetNoi();
+            }
+            return result;
+        }
         public bool ThucHienCauLenh(String strSql)
         {
             int kq = 0;
@@ -97,6 +121,7 @@ namespace Thanh.ThuVien
             }
             return kq;
         }
+
 
     }
 }

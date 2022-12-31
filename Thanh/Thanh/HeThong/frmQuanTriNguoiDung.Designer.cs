@@ -67,8 +67,10 @@
             this.dgvNguoiDung.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvNguoiDung.Location = new System.Drawing.Point(12, 181);
             this.dgvNguoiDung.Name = "dgvNguoiDung";
+            this.dgvNguoiDung.ReadOnly = true;
+            this.dgvNguoiDung.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvNguoiDung.Size = new System.Drawing.Size(776, 257);
-            this.dgvNguoiDung.TabIndex = 0;
+            this.dgvNguoiDung.TabIndex = 1;
             this.dgvNguoiDung.SelectionChanged += new System.EventHandler(this.dgvNguoiDung_SelectionChanged_1);
             // 
             // panel1
@@ -169,6 +171,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
@@ -223,11 +227,11 @@
             // cboQuyen
             // 
             this.cboQuyen.FormattingEnabled = true;
-            this.cboQuyen.Location = new System.Drawing.Point(532, 79);
-            this.cboQuyen.Name = "cboQuyen";
             this.cboQuyen.Items.AddRange(new object[] {
             "Người dùng",
             "Quản trị viên"});
+            this.cboQuyen.Location = new System.Drawing.Point(532, 79);
+            this.cboQuyen.Name = "cboQuyen";
             this.cboQuyen.Size = new System.Drawing.Size(215, 21);
             this.cboQuyen.TabIndex = 9;
             // 

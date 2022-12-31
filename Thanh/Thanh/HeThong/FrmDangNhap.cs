@@ -34,6 +34,7 @@ namespace Thanh
                 if (dtNguoiDung.Rows.Count > 0)
                 {
                     MessageBox.Show("Đăng nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    DungChung.dtNguoidung = dtNguoiDung;
                     this.Hide();
                     frmGiaoDienChinh = new FrmGiaoDienChinh();
                     frmGiaoDienChinh.Closed += (s, args) => this.Close();
@@ -55,6 +56,11 @@ namespace Thanh
         private void btnHuy_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void FrmDangNhap_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
         }
     }
 }
